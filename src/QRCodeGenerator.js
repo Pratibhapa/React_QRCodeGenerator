@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 
 const QRCodeGenerator = () => {
     const [text, setText] = useState('');
-
     const  handleChange = (e) => {
         setText(e.target.value);
     };

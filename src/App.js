@@ -10,6 +10,5 @@ function App()  {
       <QRCodeGenerator/>
     </div>
   );
-
 }
 export default App;
